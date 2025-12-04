@@ -17,7 +17,7 @@
     "postinstall": "husky install"
   },
   "engines": {
-    "node": "16.20.2",
+    "node": "24.x",
     "npm": ">=6.0.0"
   },
   "dependencies": {
