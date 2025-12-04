@@ -213,7 +213,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
 
 const MobileNav = () => {
   return (
-  <Stack bg={'next-dark'} p={4} display={{ md: 'none' }}>
+    <Stack bg={'next-dark'} p={4} display={{ md: 'none' }}>
       {NAV_ITEMS.map(navItem => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}

@@ -14,11 +14,7 @@ export default function NextVideos() {
         align="center"
         justify="center"
       >
-        <Text
-          color={'white'}
-          fontWeight={700}
-          fontSize={{ base: '3xl', md: '4xl' }}
-        >
+        <Text color={'white'} fontWeight={700} fontSize={{ base: '3xl', md: '4xl' }}>
           video aqui
         </Text>
       </Flex>

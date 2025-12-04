@@ -60,7 +60,7 @@ const NextTemplateHome = ({ nextCallToActionItems }: NextTemplateHomeProps) => {
         background={nextCallToActionItems[2].background}
         directionBase={nextCallToActionItems[2].directionBase}
       />
-      
+
       <NextCallToAction
         id={'rosane'}
         title={nextCallToActionItems[3].title}

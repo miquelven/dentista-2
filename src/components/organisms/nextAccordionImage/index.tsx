@@ -82,7 +82,11 @@ const NextAccordionImage = ({
             {specialties?.map(item => (
               <AccordionItem borderTop="0" borderColor="next-primary">
                 <h2>
-                  <AccordionButton borderBottom="1px" borderColor="next-primary" sx={{ pointerEvents: 'none' }}>
+                  <AccordionButton
+                    borderBottom="1px"
+                    borderColor="next-primary"
+                    sx={{ pointerEvents: 'none' }}
+                  >
                     <Box flex="1" textAlign="left">
                       <Text
                         color={'next-primary'}

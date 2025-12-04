@@ -43,7 +43,7 @@ const NextTemplateSpecialties = ({ nextCallToActionItems }: NextTemplateAboutUs)
         background={nextCallToActionItems.background}
         specialties={nextCallToActionItems.specialties}
       />
-      
+
       <Box pt={16}>
         <Grid templateColumns="repeat(7, 1fr)">
           <GridItem colSpan={2} display={['none', 'block']}>
